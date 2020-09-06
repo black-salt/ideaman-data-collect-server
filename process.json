@@ -1,8 +1,8 @@
 {
     "apps": [{
         "name": "ideaman-data-collect-server",
-        "script": "./index.js",
-        "watch": ["./"],
+        "script": "./src/app.js",
+        "watch": ["./src/"],
         "log_date_format": "YYYY - MM - DD HH: mm Z",
         "instances": "max",
         "error_file": "./logs/app_err.log",
