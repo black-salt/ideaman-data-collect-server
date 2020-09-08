@@ -17,10 +17,10 @@ const log4js = {
     },
     file: {
       type: 'file',
-      pattern: 'yyyy-MM-dd.log',    //通过日期来生成文件
-      alwaysIncludePattern: true,   //文件名始终以日期区分
+      pattern: 'yyyy-MM-dd.log',    // 通过日期来生成文件
+      alwaysIncludePattern: true,   // 文件名始终以日期区分
       filename: 'logs/IdeaManDCP',  // 最终文件名是上面的 pattern 拼接到 filename 后
-      maxLogSize: 10485760,
+      maxLogSize: 10485760,         // 10M
       backups: 3,
       compress: true,
       layout: {
